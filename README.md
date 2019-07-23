@@ -18,6 +18,8 @@ A write request can be made to any node in the cluster but only the Leader for t
 Once the Leader get the write request It Immediatly writes the data for It's partiotion and sends the replication write request (Selects follower nodes based on replication factor) to few other nodes (followers) in the cluster.
 #### Read
 A Read request can be served by any node in the cluster , there could be consistency Issues but we are favouring Availability over Consistency.
+
+![](https://ik.imagekit.io/be4swnsmo/HashRing_J1IZvEMOW.PNG)
    
  ##### Improvements In Progress
  ###### Distribute the load evenly among the nodes
