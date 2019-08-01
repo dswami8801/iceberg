@@ -21,10 +21,10 @@ A Read request can be served by any node in the cluster , there could be consist
 
 ![](https://ik.imagekit.io/be4swnsmo/HashRing_J1IZvEMOW.PNG)
    
- ##### Improvements In Progress
+ ##### Improvements In Progress ...
  ###### Distribute the load evenly among the nodes
- ###### System must resilinet for network partition
- ###### For a failiure of node re-distribute the load evenly
+ ###### System must resilient for network partition
+ ###### For a failure of node re-distribute the load evenly
  
  
 
